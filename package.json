@@ -1,0 +1,24 @@
+{
+  "name": "koaex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "script": {
+    "start": "node src",
+    "start:dev": "nodemon --watch src/ src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-cors": "0.0.16",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.6.9",
+    "nodemon": "^1.19.1"
+  }
+}
